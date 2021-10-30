@@ -1,0 +1,371 @@
+html {
+  font-size: 15px; }
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: -1; }
+
+#div_anclas {
+  background: rgba(0, 0, 0, 0.1); }
+
+#anclas {
+  text-shadow: 0px 0px 6px white; }
+
+#anclas:hover {
+  background-color: #0dacd4;
+  color: white; }
+
+#texto_header {
+  font-size: 1.5rem; }
+
+.navbar-toggler {
+  color: white; }
+
+.navbar-toggler-icon {
+  color: white; }
+
+.contenido1 {
+  background: #ffff; }
+
+.contenido1 img {
+  width: 100%;
+  height: 400px; }
+
+#titulo {
+  color: white;
+  text-shadow: 0px 0px 6px yellow; }
+
+#parrafo1 {
+  color: white;
+  text-shadow: 0px 0px 6px yellow; }
+
+.Cajas img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black; }
+
+.Cajas {
+  width: 220px;
+  color: white;
+  text-shadow: 0px 0px 6px yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+  background: rgba(167, 162, 162, 0.4);
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px 5px lightblue;
+          box-shadow: 5px 5px 5px 5px lightblue; }
+
+.Cajas a {
+  display: block;
+  text-align: center; }
+
+.Cajas a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%; }
+
+.Cajas p {
+  text-align: center;
+  margin-top: 5px; }
+
+.caja img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%; }
+
+.caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  width: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background: rgba(167, 162, 162, 0.4);
+  -webkit-box-shadow: 5px 5px 5px 5px lightblue;
+          box-shadow: 5px 5px 5px 5px lightblue; }
+
+.caja p {
+  text-align: justify;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 0px 0px 6px yellow; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/*periodos de la animacion*/
+@-webkit-keyframes cambiar {
+  0% {
+    margin-top: 0; }
+  20% {
+    margin-top: 0; }
+  25% {
+    margin-top: -40px; }
+  50% {
+    margin-top: -40px; }
+  55% {
+    margin-top: -80px; }
+  80% {
+    margin-top: -80px; }
+  85% {
+    margin-top: -40px; }
+  95% {
+    margin-top: -40px; }
+  100% {
+    margin-top: 0; } }
+@keyframes cambiar {
+  0% {
+    margin-top: 0; }
+  20% {
+    margin-top: 0; }
+  25% {
+    margin-top: -40px; }
+  50% {
+    margin-top: -40px; }
+  55% {
+    margin-top: -80px; }
+  80% {
+    margin-top: -80px; }
+  85% {
+    margin-top: -40px; }
+  95% {
+    margin-top: -40px; }
+  100% {
+    margin-top: 0; } }
+.img {
+  margin-top: 60px;
+  text-align: center; }
+
+.img img {
+  width: 100px;
+  height: 80px; }
+
+.datos {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  height: 390px;
+  background: white; }
+
+.datos img {
+  width: 300px;
+  height: 300px; }
+
+.datos h1 {
+  font-size: 15px;
+  color: black;
+  text-shadow: 0px 0px 6px yellow;
+  margin: auto;
+  position: relative; }
+
+.datos h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 2px solid white;
+  -webkit-animation: maquina 4s infinite alternate steps(21);
+          animation: maquina 4s infinite alternate steps(21); }
+
+.poner {
+  color: black;
+  text-shadow: 0px 0px 6px yellow;
+  text-align: justify;
+  font-weight: 12px; }
+
+@-webkit-keyframes maquina {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
+
+@keyframes maquina {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
+.somos2 {
+  grid-column: 1/-1;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.somos2 iframe {
+  border: 2px solid yellow;
+  -webkit-box-shadow: 0 0 0 2px black ,  0 5px 20px;
+          box-shadow: 0 0 0 2px black ,  0 5px 20px; }
+
+.tema_alertas {
+  margin-top: 70px;
+  text-align: center; }
+
+.Alertas {
+  grid-column: 1/-1;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.Alertas iframe {
+  border: 2px solid yellow;
+  -webkit-box-shadow: 0 0 0 2px black ,  0 15px 50px;
+          box-shadow: 0 0 0 2px black ,  0 15px 50px; }
+
+footer {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  height: 230px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+footer .copeco img {
+  width: 200px;
+  height: 200px; }
+
+footer .CEPREDENAC img {
+  width: 200px;
+  height: 200px; }
+
+footer .datos_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+footer .title {
+  text-align: center;
+  font-size: 25px; }
+
+.datos_footer .Nombre {
+  text-align: center; }
+
+.datos_footer .Nombre p {
+  font-size: 20px; }
+
+@media screen and (max-width: 390px) {
+  #anclas {
+    text-shadow: 0px 0px 6px white;
+    color: black;
+    font-size: 10px; }
+
+  .contenido1 img {
+    width: 100%;
+    height: 300px; }
+
+  .Cajas {
+    margin: 20px auto; }
+
+  .caja {
+    margin: 20px auto; }
+
+  .texto-animado > div span {
+    font-size: 50px;
+    line-height: 50px; }
+
+  .datos {
+    margin: 10px auto; }
+
+  .somos {
+    width: 90%;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  #imagen_sat a {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1rem; }
+
+  #imagen_sat img:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5); }
+
+  footer {
+    height: 100px;
+    margin-top: 20px; }
+
+  footer .copeco img {
+    width: 80px;
+    height: 80px; }
+
+  footer .CEPREDENAC img {
+    width: 80px;
+    height: 80px;
+    font-size: 10px; }
+
+  footer .datos_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  footer .title {
+    text-align: center;
+    font-size: 15px; }
+
+  .datos_footer .Nombre {
+    text-align: center; }
+
+  .datos_footer .Nombre p {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=estilos.css.map */
